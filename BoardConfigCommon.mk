@@ -172,6 +172,10 @@ BOARD_HARDWARE_CLASS += \
 # Keymaster
 TARGET_PROVIDES_KEYMASTER := true
 
+# Key disabler
+JAVA_SOURCE_OVERLAYS := \
+    org.pixelexperience.keydisabler|$(VENDOR_PATH)/keydisabler|**/*.java
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 

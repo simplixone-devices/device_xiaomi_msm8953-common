@@ -74,10 +74,6 @@ PRODUCT_PACKAGES += \
     com.dsi.ant.antradio_library \
     libantradio
 
-# Ambient Display
-PRODUCT_PACKAGES += \
-    XiaomiDoze
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@4.0-impl \
@@ -133,6 +129,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.configstore@1.0-service
 
+# Device-specific settings
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
@@ -153,10 +153,6 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     vendor.display.config@1.0 \
     vendor.display.config@1.0_vendor
-
-# Doze mode
-PRODUCT_PACKAGES += \
-    XiaomiDoze
 
 # DRM
 PRODUCT_PACKAGES += \

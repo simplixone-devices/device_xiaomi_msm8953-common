@@ -32,6 +32,7 @@ vendor/lib/libaudioalsa.so
 vendor/lib/libdrc.so
 vendor/lib/libqtigef.so
 vendor/lib/libsurround_3mic_proc.so
+vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
@@ -42,13 +43,16 @@ vendor/lib64/libadiertac.so
 vendor/lib64/libaudcal.so
 vendor/lib64/libaudioalsa.so
 vendor/lib64/libqtigef.so
+vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcvirt.so
 
-# Audio dirac - from xiaomi
-lib/soundfx/libdirac.so 
-lib/libDiracAPI_SHARED.so
+# Audio - Dirac
+-priv-app/DiracAudioControlService/DiracAudioControlService.apk
 vendor/etc/diracmobile.config
+vendor/etc/diracvdd.bin
+vendor/lib/libDiracAPI_SHARED.so
+vendor/lib/soundfx/libdirac.so
 
 # ANT+ (vendor)
 vendor/lib64/com.qualcomm.qti.ant@1.0.so
